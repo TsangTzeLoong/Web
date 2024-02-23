@@ -14,14 +14,15 @@
             const Root = {
                 data(){
                     return{
-                        message:"message test",
+                        txt:"message txt",
                         count: 0
                     }
                 },
-                template: "<button @click = 'count++'> hit button </button> <h1>hit {{count}} times, {{message}}</h1>"
+                template: "<button @click = 'count++'> hit button </button> <h1>hit {{count}} times, {{txt}}</h1>"
             }
-            const app = Vue.createApp(Root)
-            app.mount("#root")
+            //const app = Vue.createApp(Root)
+            //app.mount("#root")
+            Vue.createApp(Root).mount("#root")
 
         </script>
     </body>
