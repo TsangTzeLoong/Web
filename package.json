@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "showdown": "^2.1.0",
+    "vue": "^3.4.20"
+  },
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "name": "Web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TsangTzeLoong/Web.git",
+  "author": "TzeLoong <jeremytsang722@gmail.com>",
+  "license": "MIT"
+}
